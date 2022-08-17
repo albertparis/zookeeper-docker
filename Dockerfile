@@ -2,7 +2,7 @@ ARG java_version=11-jre-slim
 
 FROM openjdk:${java_version}
 
-ARG zookeeper_version=3.7.0
+ARG zookeeper_version=3.8.0
 ARG vcs_ref=unspecified
 ARG build_date=unspecified
 
